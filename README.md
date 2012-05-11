@@ -4,6 +4,7 @@ ImageMosaic
 Image Mosaic using C# - Library used in http://yearinimages.com website (powered by GettyImages images)
 
 Example usage:
+--------------
 
 var _mosaicGenerator = new MosaicGenerator();
 
