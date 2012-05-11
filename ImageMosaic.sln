@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMosaic", "ImageMosaic\ImageMosaic.csproj", "{7617A892-4183-44ED-8C38-204DF39723FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMosaicTest", "ImageMosaicTest\ImageMosaicTest.csproj", "{12CBA837-7AA6-4F6C-93DD-BF670FEAECAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{929EB579-098F-402A-9306-7FDFDE4AE424}"
+	ProjectSection(SolutionItems) = preProject
+		ImageMosaic.vsmdi = ImageMosaic.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ImageMosaic.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7617A892-4183-44ED-8C38-204DF39723FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7617A892-4183-44ED-8C38-204DF39723FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7617A892-4183-44ED-8C38-204DF39723FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7617A892-4183-44ED-8C38-204DF39723FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CBA837-7AA6-4F6C-93DD-BF670FEAECAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CBA837-7AA6-4F6C-93DD-BF670FEAECAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CBA837-7AA6-4F6C-93DD-BF670FEAECAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CBA837-7AA6-4F6C-93DD-BF670FEAECAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
