@@ -2,6 +2,8 @@ ImageMosaic
 ===========
 
 Image Mosaic using C# - Library used in http://yearinimages.com website (powered by GettyImages images)
+Note that the library was customized to produce the yearinimages grid and there is no guarantee that it 
+would produce similar results when generating using this library.
 
 Example usage:
 --------------
