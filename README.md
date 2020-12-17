@@ -1,6 +1,8 @@
 ImageMosaic
 ===========
 
+Updates karthik20522's ImageMosaic (https://github.com/karthik20522/ImageMosaic) to .NET 5
+
 Image Mosaic using C# - Library used in <a href='http://kufli.blogspot.com/2012/08/yearinimagescom-how-did-i-build-this.html'>http://yearinimages.com</a> website (powered by GettyImages images)
 Note that the library was customized to produce the yearinimages grid and there is no guarantee that it 
 would produce similar results when generating using this library.
