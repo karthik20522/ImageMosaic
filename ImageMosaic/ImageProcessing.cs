@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 
 namespace ImageMosaic
 {
@@ -21,7 +20,7 @@ namespace ImageMosaic
             using (var scrBitmap = Bitmap.FromFile(srcFile))
             {
                 var b = new Bitmap(resizeHeight, resizeWidth);
-                
+
                 using (var g = Graphics.FromImage((Image)b))
                 {
                     g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
@@ -36,7 +35,7 @@ namespace ImageMosaic
         public ImageInfo GetAverageColor(Bitmap bmp, string filePath)
         {
             var imageInfo = new ImageInfo(filePath);
-            
+
             int halfX = bmp.Width / 2;
             int halfY = bmp.Width / 2;
 
